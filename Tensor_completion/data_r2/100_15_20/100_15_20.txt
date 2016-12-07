@@ -1,0 +1,107 @@
+tensor_size   100   100   100
+
+tensor_rank    15    15    15
+
+OS    20
+
+linesearchguess2	linesearchguess2
+
+[Warning: The field "data_validate" is either empty or not properly defined. We work with
+the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 448)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',448,0)">line 448</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('process', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m', 26)" style="font-weight:bold">process</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('processscript', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m', 6)" style="font-weight:bold">processscript</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m',6,0)">line 6</a>)] 
+ iter	                cost val	     grad. norm
+    0	+4.6286257028579038e+08	1.22754733e+04
+    1	+3.8600579433225542e+08	1.48739738e+04
+    2	+2.2221699640315238e+08	1.09535912e+04
+    3	+1.9175041009268302e+07	2.53580110e+03
+    4	+2.6076231253252244e+06	1.01439891e+03
+    5	+3.8104859090894077e+05	2.99192680e+02
+    6	+1.3208976002034318e+05	1.35015898e+02
+    7	+9.5247224753571747e+04	7.93790602e+01
+    8	+8.2926175609052400e+04	6.91076035e+01
+    9	+6.8447672836081911e+04	7.99244557e+01
+   10	+5.6055499172870812e+04	8.11502576e+01
+   11	+3.7347532954515627e+04	6.69203232e+01
+   12	+2.3121440252591041e+04	5.37383187e+01
+   13	+1.5662210040852575e+04	4.38786437e+01
+   14	+1.0838980420233620e+04	3.66237229e+01
+   15	+7.6098755760516369e+03	2.93643724e+01
+   16	+5.1877604342318382e+03	2.27158405e+01
+   17	+3.9443684797718734e+03	1.70013577e+01
+   18	+3.3657621524887177e+03	1.21872506e+01
+   19	+2.7946516916449209e+03	1.15409093e+01
+   20	+2.0436226877406009e+03	1.37558804e+01
+   21	+1.3104548814862123e+03	1.73324794e+01
+   22	+6.9950785932894200e+02	1.41041218e+01
+   23	+1.3013194580767575e+02	6.35244275e+00
+   24	+1.9316655609319163e+01	2.80163472e+00
+   25	+2.7669308177653891e+00	9.82999067e-01
+   26	+3.8359033485368221e-01	3.99647212e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 66.653758 [s] (excludes statsfun)
+[Warning: Directory already exists.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 616)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',616,0)">line 616</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 582)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',582,0)">line 582</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 283)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',283,0)">line 283</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('process', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m', 26)" style="font-weight:bold">process</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('processscript', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m', 6)" style="font-weight:bold">processscript</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m',6,0)">line 6</a>)] 
+linesearchdefault	linesearchdefault
+
+[Warning: The field "data_validate" is either empty or not properly defined. We work with
+the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 448)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',448,0)">line 448</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('process', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m', 33)" style="font-weight:bold">process</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m',33,0)">line 33</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('processscript', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m', 6)" style="font-weight:bold">processscript</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m',6,0)">line 6</a>)] 
+ iter	                cost val	     grad. norm
+    0	+4.6286257028579038e+08	1.22754733e+04
+    1	+4.6285029498622036e+08	1.22751367e+04
+    2	+4.6280119656936049e+08	1.22737944e+04
+    3	+4.6260484755566013e+08	1.22684865e+04
+    4	+4.6182017545444596e+08	1.22482402e+04
+    5	+4.5869363426266575e+08	1.21830561e+04
+    6	+4.4640734753228843e+08	1.21614399e+04
+    7	+4.0136685446073395e+08	1.35520852e+04
+    8	+2.6308796552629805e+08	1.20561651e+04
+    9	+9.1246329754557073e+07	6.92198508e+03
+   10	+8.9428547410683304e+07	7.35206914e+03
+   11	+8.2315668510549217e+07	7.04065231e+03
+   12	+5.6501866079626724e+07	5.77797555e+03
+   13	+3.1439691442327895e+06	1.04519562e+03
+   14	+6.2140796634281939e+05	5.39721537e+02
+   15	+1.6282367878920079e+05	1.95840921e+02
+   16	+1.2016566741282152e+05	1.66896802e+02
+   17	+1.0231502219710626e+05	1.62243922e+02
+   18	+6.0778713176905650e+04	8.32157728e+01
+   19	+6.0095825658875379e+04	1.37632272e+02
+   20	+5.7413021245388722e+04	1.33135840e+02
+   21	+4.7486167718543045e+04	1.15142895e+02
+   22	+2.2140532446373712e+04	6.05275597e+01
+   23	+9.5250251420779041e+03	5.22561171e+01
+   24	+4.3952692601992449e+03	4.31226350e+01
+   25	+2.9661962721528080e+03	4.53830294e+01
+   26	+2.8274518892022024e+02	9.44198007e+00
+   27	+1.8123111547097881e+02	1.18213414e+01
+   28	+1.0883045090009681e+01	2.40806735e+00
+   29	+3.3153295289190461e+00	1.24652157e+00
+   30	+1.9171658262425917e+00	1.12260917e+00
+   31	+1.1165522087719084e+00	9.01989255e-01
+   32	+4.2402787839918776e-01	5.54979685e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 58.727778 [s] (excludes statsfun)
+
+ans =
+
+     1
+
+[Warning: Directory already exists.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 616)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',616,0)">line 616</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 582)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',582,0)">line 582</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m', 283)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/Proposed_algo_files/fixedrank_tensor_completion.m',283,0)">line 283</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('process', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m', 33)" style="font-weight:bold">process</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/process.m',33,0)">line 33</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('processscript', '/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m', 6)" style="font-weight:bold">processscript</a> (<a href="matlab: opentoline('/home/jason/Desktop/Rprecon_for_tensor_completion_1July2016/Rprecon_for_tensor_completion_1July2016/processscript.m',6,0)">line 6</a>)] 
