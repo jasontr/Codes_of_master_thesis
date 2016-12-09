@@ -18,3 +18,4 @@ def dataprocessor(input_path):
 
 	for item in File_list:
 		regprocessor.regprocessor(item)
+		regprocessor.regprocessor2(item)
