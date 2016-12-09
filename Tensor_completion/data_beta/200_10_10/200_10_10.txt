@@ -1,0 +1,714 @@
+tensor_size   200   200   200
+
+tensor_rank    10    10    10
+
+OS    10
+
+conjugategradient	linesearchdefault
+
+=============> beta: 1 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.4925182517310442e+07	6.19915663e+02
+    9	+3.7835550185182048e+06	3.25708666e+02
+   10	+3.2067980103427451e+06	3.20646687e+02
+   11	+2.0121868927426282e+06	2.25597500e+02
+   12	+4.9995341462353827e+05	1.32234011e+02
+   13	+2.4367975575315260e+05	8.17009236e+01
+   14	+4.4879749105773997e+04	3.15134055e+01
+   15	+3.7587883321666253e+04	2.35627768e+01
+   16	+2.7549024772862809e+04	1.78238448e+01
+   17	+1.7979122558524203e+04	1.27650543e+01
+   18	+1.7071415730786641e+04	1.09327820e+01
+   19	+1.4544255893510606e+04	8.39507827e+00
+   20	+1.1557201954188888e+04	8.44471897e+00
+   21	+1.0086995292594336e+04	7.39716380e+00
+   22	+7.1572245063245482e+03	6.91012736e+00
+   23	+6.4071817649479217e+03	8.34917162e+00
+   24	+5.0844149409123393e+03	7.43596844e+00
+   25	+2.4083627538391656e+03	4.71811423e+00
+   26	+1.3941061164251073e+03	4.45782182e+00
+   27	+8.6210280309523046e+02	3.63752248e+00
+   28	+7.3543427502703946e+02	4.10040836e+00
+   29	+7.1598439887185532e+02	3.66809020e+00
+   30	+6.4141635146060980e+02	3.43620475e+00
+   31	+3.8885579694962740e+02	2.51409261e+00
+   32	+1.4734523894894966e+02	2.07493786e+00
+   33	+1.2888136904744272e+02	1.56360449e+00
+   34	+6.8434433697744453e+01	1.10395586e+00
+   35	+7.9078871317289643e+00	4.42401720e-01
+   36	+2.6603014510342824e+00	2.81351824e-01
+   37	+1.4577828746372790e+00	1.69214346e-01
+   38	+9.1276395471551641e-01	1.66694799e-01
+   39	+4.2863374017294575e-01	9.37568726e-02
+   40	+1.7815369234458123e-01	7.92742414e-02
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 9.652589 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.3 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.4961161507233556e+07	6.24837958e+02
+    9	+4.1012965638438091e+06	3.40290554e+02
+   10	+1.1071290391845084e+06	2.14013616e+02
+   11	+1.0677775297299190e+06	1.80777798e+02
+   12	+9.1836034394818463e+05	1.64124878e+02
+   13	+4.4180845682513277e+05	1.03992376e+02
+   14	+1.1569715370817893e+05	7.00605321e+01
+   15	+5.0820709482460625e+04	5.38190402e+01
+   16	+3.8079743964439323e+04	6.05153978e+01
+   17	+2.4321121926005359e+04	1.57633461e+01
+   18	+1.8996315253727342e+04	2.87607911e+01
+   19	+1.6489188739564590e+04	2.34118120e+01
+   20	+1.4565446333838689e+04	1.55925232e+01
+   21	+1.3776204181087087e+04	1.59556729e+01
+   22	+1.3356917659182021e+04	1.38736962e+01
+   23	+1.2607322880470361e+04	3.67419252e+00
+   24	+1.2276861624914869e+04	1.36572751e+01
+   25	+1.1474621040041755e+04	5.09657794e+00
+   26	+1.1222097885336116e+04	1.20978199e+01
+   27	+1.0460527036899075e+04	6.72265593e+00
+   28	+9.9332364810625477e+03	7.10861727e+00
+   29	+9.0334266528613443e+03	6.90014986e+00
+   30	+7.9850912652313427e+03	9.97086697e+00
+   31	+7.3800505070994950e+03	1.24891788e+01
+   32	+6.2031090820387908e+03	4.75558718e+00
+   33	+5.8697387441621941e+03	1.29254929e+01
+   34	+4.9740202764671139e+03	6.21098873e+00
+   35	+4.4864415872973268e+03	6.31127861e+00
+   36	+4.3225851156403824e+03	1.19405167e+01
+   37	+3.8335712645040821e+03	6.50081131e+00
+   38	+3.7961810575232121e+03	1.12311359e+01
+   39	+3.6611019162156763e+03	9.17678160e+00
+   40	+3.3144415185417638e+03	4.27874532e+00
+   41	+2.8020233463368681e+03	4.57218449e+00
+   42	+2.2640664349768249e+03	6.06341691e+00
+   43	+1.8457425294918764e+03	5.90866790e+00
+   44	+1.4028929414912866e+03	2.78068597e+00
+   45	+1.1180167936703647e+03	4.09130790e+00
+   46	+8.4784289231921434e+02	2.22456727e+00
+   47	+7.6136631851431002e+02	4.43715676e+00
+   48	+6.2134930748622628e+02	1.65149225e+00
+   49	+5.8143517521543458e+02	3.00330900e+00
+   50	+4.4723412195208209e+02	2.13492336e+00
+   51	+3.6860021567437934e+02	2.33392500e+00
+   52	+2.3440818657080672e+02	9.27155570e-01
+   53	+2.0399688595187456e+02	8.98387050e-01
+   54	+7.6304687616042344e+01	1.11855584e+00
+   55	+2.5147662316623375e+01	7.22660953e-01
+   56	+1.1295426023665513e+01	6.64986372e-01
+   57	+2.9143421525840028e+00	3.37708354e-01
+   58	+1.2293255637638625e+00	2.39069978e-01
+   59	+2.8178792360197613e-01	1.13794340e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 12.609001 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.09 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.4990911719704824e+07	6.27068345e+02
+    9	+4.1927607266842611e+06	3.44947829e+02
+   10	+1.1372214812730402e+06	2.25356957e+02
+   11	+1.0261521692803267e+06	1.85494998e+02
+   12	+6.4292127103157993e+05	1.39861136e+02
+   13	+1.3222943719854084e+05	6.78104108e+01
+   14	+1.0131953389785596e+05	7.51447394e+01
+   15	+5.5386427338972426e+04	5.87103615e+01
+   16	+2.7223105342047285e+04	2.63095443e+01
+   17	+2.5181522486918861e+04	6.59466931e+01
+   18	+1.9844462911069633e+04	2.77399089e+01
+   19	+1.6731908423023291e+04	1.57441350e+01
+   20	+1.5408970639743271e+04	1.57586707e+01
+   21	+1.3983084154349970e+04	6.96601416e+00
+   22	+1.2788015489251044e+04	8.64732381e+00
+   23	+1.2708302490264261e+04	1.41467974e+01
+   24	+1.2446114592908994e+04	9.38122766e+00
+   25	+1.2244002715576304e+04	6.78590909e+00
+   26	+1.1952733664523870e+04	5.00596931e+00
+   27	+1.1492524986384666e+04	5.77431630e+00
+   28	+1.0574920511229800e+04	5.51627425e+00
+   29	+1.0061529185531737e+04	1.38140720e+01
+   30	+8.8779019208835707e+03	5.53666180e+00
+   31	+8.6498792317089010e+03	1.10409938e+01
+   32	+7.9492711660769583e+03	6.92928111e+00
+   33	+7.0571299364899496e+03	7.18087818e+00
+   34	+6.3803427188064834e+03	7.43298427e+00
+   35	+5.2976818211791888e+03	4.07636997e+00
+   36	+4.2505152565817307e+03	6.43189081e+00
+   37	+2.5408220749463817e+03	4.87084152e+00
+   38	+2.4122450500199329e+03	7.60451002e+00
+   39	+1.9388636283212975e+03	6.40778679e+00
+   40	+8.5257245954900623e+02	2.65151288e+00
+   41	+3.9446174052419451e+02	2.89237424e+00
+   42	+2.5376781129792860e+02	3.12764199e+00
+   43	+5.2396984696287113e+01	1.31241714e+00
+   44	+1.3989849250930934e+01	5.92159633e-01
+   45	+4.7447655469773053e+00	2.62832136e-01
+   46	+3.1069692699421760e+00	3.68328385e-01
+   47	+3.4809143497359207e-01	8.63733154e-02
+   48	+2.4257587778346595e-01	9.50695905e-02
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 10.891508 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.027 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5002109141833264e+07	6.27823852e+02
+    9	+4.2184647036107983e+06	3.46309824e+02
+   10	+1.1787409662127944e+06	2.30911311e+02
+   11	+9.9607965140656917e+05	1.83986424e+02
+   12	+4.3077838567190769e+05	1.11467593e+02
+   13	+1.4638352253744320e+05	7.46227951e+01
+   14	+9.6226996734921428e+04	5.76290940e+01
+   15	+2.2956125539289518e+04	2.09590674e+01
+   16	+1.5857771151051966e+04	1.09973075e+01
+   17	+1.4114989930863947e+04	1.33880040e+01
+   18	+1.2248006647702579e+04	5.94086975e+00
+   19	+1.1004780237473382e+04	8.57736992e+00
+   20	+8.3147238832189632e+03	5.85294325e+00
+   21	+7.1330045212968880e+03	9.17293717e+00
+   22	+4.8934561190084023e+03	5.47353487e+00
+   23	+3.6919256439578949e+03	5.53554093e+00
+   24	+2.7481345928273709e+03	5.82915169e+00
+   25	+1.8658374982524397e+03	3.83258010e+00
+   26	+1.6281605441545471e+03	5.97397848e+00
+   27	+9.6090917209269674e+02	2.66149583e+00
+   28	+7.3385056232050420e+02	3.45059046e+00
+   29	+3.7013733235971705e+02	2.97705450e+00
+   30	+1.8889583260196949e+02	2.59846747e+00
+   31	+4.5516226897254739e+01	1.00612452e+00
+   32	+1.9978371948596326e+01	7.10897353e-01
+   33	+7.2653477472057775e+00	3.00363755e-01
+   34	+3.7931849009748602e+00	3.97835118e-01
+   35	+5.0652791920006690e-01	7.45543381e-02
+   36	+2.6693421031047548e-01	1.03634283e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 8.808030 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.0081 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5005690093474051e+07	6.28058710e+02
+    9	+4.2259717128529260e+06	3.46712096e+02
+   10	+1.1937576509323083e+06	2.32738234e+02
+   11	+9.8508112479941128e+05	1.83181155e+02
+   12	+3.6604814550125960e+05	1.01441171e+02
+   13	+2.8279185788254091e+05	1.02475975e+02
+   14	+6.9677053333639225e+04	4.22733871e+01
+   15	+6.4845228161637759e+04	4.58360017e+01
+   16	+4.8027405327459397e+04	3.58671670e+01
+   17	+1.5813932748300960e+04	1.12056270e+01
+   18	+1.5525780034355841e+04	2.33403175e+01
+   19	+1.4590481880678137e+04	1.56984568e+01
+   20	+1.3123281056029722e+04	9.59133424e+00
+   21	+1.1892465115999425e+04	1.12991667e+01
+   22	+1.0478768789598929e+04	6.80965372e+00
+   23	+8.4352951850906320e+03	6.40277998e+00
+   24	+8.2319079243991782e+03	9.26298173e+00
+   25	+7.4698001315980337e+03	8.26584428e+00
+   26	+5.2928508225928954e+03	5.29588168e+00
+   27	+3.3610184374146702e+03	5.73793059e+00
+   28	+2.4006011343156169e+03	7.13116537e+00
+   29	+1.4957358196492473e+03	6.03981541e+00
+   30	+6.2823917048432702e+02	2.93411632e+00
+   31	+2.9592890026177372e+02	2.95913690e+00
+   32	+1.6298579819101377e+02	2.48584129e+00
+   33	+3.0871493676791133e+01	5.98272359e-01
+   34	+1.3105330002391447e+01	7.69931704e-01
+   35	+3.3018462958941850e+00	3.78810352e-01
+   36	+1.5810859104056560e+00	2.65244559e-01
+   37	+1.9491054846831948e-01	6.75042820e-02
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 8.470683 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.00243 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5006784812482983e+07	6.28129916e+02
+    9	+4.2282041263146866e+06	3.46832115e+02
+   10	+1.1984859870608000e+06	2.33300135e+02
+   11	+9.8159312906638673e+05	1.82905597e+02
+   12	+3.4696012982964446e+05	9.83115513e+01
+   13	+3.4171252495658828e+05	1.11408288e+02
+   14	+3.2114294061817136e+05	1.07188338e+02
+   15	+2.4549365475823919e+05	9.11636536e+01
+   16	+5.2835699749413267e+04	3.36205644e+01
+   17	+2.3769404183736828e+04	2.39047253e+01
+   18	+2.0746212258874355e+04	2.63402742e+01
+   19	+1.6253464513842049e+04	1.31956773e+01
+   20	+1.4862765061287966e+04	1.11005113e+01
+   21	+1.2922847030195913e+04	1.55262642e+01
+   22	+1.2344884022343085e+04	1.03567623e+01
+   23	+1.2319920010000427e+04	1.50824354e+01
+   24	+1.2224770862362726e+04	1.37535430e+01
+   25	+1.1912728020333583e+04	9.42818773e+00
+   26	+1.1269407586736641e+04	4.98055817e+00
+   27	+9.0110713796503442e+03	4.88693559e+00
+   28	+6.9656310298504377e+03	5.91544937e+00
+   29	+5.5643255419791949e+03	5.83802748e+00
+   30	+4.5850628478260051e+03	5.98979183e+00
+   31	+4.2398648095968165e+03	9.15058312e+00
+   32	+3.0948301406963847e+03	6.20128113e+00
+   33	+2.0350807115259904e+03	4.34040211e+00
+   34	+1.6427258696223980e+03	6.23366865e+00
+   35	+7.6857183217689874e+02	2.36515352e+00
+   36	+6.0464952607796840e+02	3.65774566e+00
+   37	+1.7431348543956341e+02	1.67489882e+00
+   38	+5.2261480545459676e+01	1.21806561e+00
+   39	+1.8703521692944982e+01	8.97001284e-01
+   40	+2.0985739411726518e+00	1.58415607e-01
+   41	+8.9300399583278756e-01	1.87643945e-01
+   42	+3.6731991710093376e-01	1.25380704e-01
+   43	+1.7598924592768656e-01	8.67573471e-02
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 10.056992 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.000729 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5007115080217745e+07	6.28151346e+02
+    9	+4.2288720431557894e+06	3.46868059e+02
+   10	+1.1999244144865870e+06	2.33469935e+02
+   11	+9.8052957869851484e+05	1.82819823e+02
+   12	+3.4127702211207966e+05	9.73622123e+01
+   13	+6.7227867059270444e+04	4.31337540e+01
+   14	+6.7060773268918230e+04	5.09836121e+01
+   15	+6.6396686092243326e+04	5.03806208e+01
+   16	+6.3807362530928833e+04	4.80719516e+01
+   17	+5.4433059667718633e+04	4.02353590e+01
+   18	+2.9047942312823419e+04	2.13971268e+01
+   19	+2.2818406419558531e+04	2.78308237e+01
+   20	+1.5159608339828112e+04	1.22747169e+01
+   21	+1.3500873950420322e+04	1.21000721e+01
+   22	+1.3087164661897335e+04	1.35306528e+01
+   23	+1.2278137544120493e+04	4.61518570e+00
+   24	+1.1124084654477660e+04	1.20562867e+01
+   25	+1.0023490925297379e+04	6.73825814e+00
+   26	+9.1665948943074127e+03	9.24649026e+00
+   27	+8.3319421621212223e+03	8.48248674e+00
+   28	+7.4608865646478143e+03	4.32507722e+00
+   29	+6.2657270231534640e+03	6.36374859e+00
+   30	+5.1500529597203295e+03	6.20146403e+00
+   31	+4.3482299456218298e+03	7.01483309e+00
+   32	+2.9709219323447842e+03	5.25078418e+00
+   33	+2.2856145271715127e+03	6.94278740e+00
+   34	+1.1963854752083184e+03	3.94577428e+00
+   35	+7.5477422647888829e+02	3.26282635e+00
+   36	+4.8625738931239789e+02	3.45120595e+00
+   37	+3.6501074828148148e+02	3.79550225e+00
+   38	+6.9571320073807996e+01	1.04947612e+00
+   39	+5.0797194983405568e+01	1.47638054e+00
+   40	+6.1445506661748137e+00	3.36900548e-01
+   41	+3.4878951036719710e+00	3.42187182e-01
+   42	+8.4225797850200779e-01	9.28891569e-02
+   43	+3.0278617375122341e-01	1.04762441e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 9.918298 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0.0002187 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5007214327573502e+07	6.28157781e+02
+    9	+4.2290722545838859e+06	3.46878837e+02
+   10	+1.2003577316104600e+06	2.33520985e+02
+   11	+9.8020896552277473e+05	1.82793809e+02
+   12	+3.3957636950614792e+05	9.70764863e+01
+   13	+6.7409000409061351e+04	4.33999482e+01
+   14	+6.6405904566016427e+04	5.06446747e+01
+   15	+6.2547138384255915e+04	4.71617781e+01
+   16	+4.9260979363855207e+04	3.62854047e+01
+   17	+2.0830480563750643e+04	1.67278037e+01
+   18	+1.8076936271955827e+04	2.51642229e+01
+   19	+1.5404701585397896e+04	2.56178531e+01
+   20	+1.3616766341552287e+04	7.25465002e+00
+   21	+1.3277808662937186e+04	1.58361071e+01
+   22	+1.2406494014584154e+04	6.70982100e+00
+   23	+1.2382291783660490e+04	1.56418852e+01
+   24	+1.2287984126384323e+04	1.48686726e+01
+   25	+1.1949161031061414e+04	1.20650519e+01
+   26	+1.1102748690817065e+04	5.36112199e+00
+   27	+1.1030951355268196e+04	1.73842827e+01
+   28	+1.0765207909441779e+04	1.50010496e+01
+   29	+9.9869128352770022e+03	8.46890615e+00
+   30	+8.9697106021895088e+03	4.93228980e+00
+   31	+8.5357925915004780e+03	9.04903778e+00
+   32	+7.7297536528226037e+03	3.38787792e+00
+   33	+7.5080559845610660e+03	1.19660112e+01
+   34	+6.8704420181576152e+03	6.92114360e+00
+   35	+5.7397200814062189e+03	3.87656000e+00
+   36	+4.9281595764566473e+03	4.94382337e+00
+   37	+3.9382531000048102e+03	5.68320161e+00
+   38	+2.8960475694012994e+03	7.17589061e+00
+   39	+1.7889482760644869e+03	6.30835568e+00
+   40	+8.4566160095645319e+02	3.48652195e+00
+   41	+4.2249505966433230e+02	3.12534478e+00
+   42	+2.6357098261389206e+02	3.15835182e+00
+   43	+1.0099500447334758e+02	1.90679974e+00
+   44	+2.2564818932198435e+01	5.21914947e-01
+   45	+1.0059115309875526e+01	6.46696683e-01
+   46	+3.1843279092715484e+00	3.35487715e-01
+   47	+1.2194785534461812e+00	1.88183603e-01
+   48	+4.5971942025211676e-01	8.90796737e-02
+   49	+3.2368210383691620e-01	1.04383175e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 11.177369 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 6.561e-05 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5007244116822986e+07	6.28159712e+02
+    9	+4.2291323030848633e+06	3.46882069e+02
+   10	+1.2004878877812903e+06	2.33536310e+02
+   11	+9.8011264146199974e+05	1.82785980e+02
+   12	+3.3906656732190901e+05	9.69906854e+01
+   13	+6.7468900557268033e+04	4.34813332e+01
+   14	+6.6194770609304920e+04	5.05349086e+01
+   15	+6.1345567385024056e+04	4.61678180e+01
+   16	+4.5293209563729353e+04	3.33136186e+01
+   17	+1.8786216959889658e+04	1.85667067e+01
+   18	+1.7541755260265832e+04	2.26677502e+01
+   19	+1.4739033049901474e+04	9.48871811e+00
+   20	+1.4180773331645451e+04	2.19123332e+01
+   21	+1.2952868758213463e+04	7.85984643e+00
+   22	+1.2357877980178044e+04	8.33357360e+00
+   23	+1.1653624291571974e+04	7.80822007e+00
+   24	+1.0857595238877457e+04	6.96179105e+00
+   25	+9.9636534797705735e+03	6.78886747e+00
+   26	+9.1520791844489140e+03	7.49314426e+00
+   27	+8.2804788920261453e+03	5.43620841e+00
+   28	+7.3721669899159715e+03	5.81888906e+00
+   29	+6.2323039363936696e+03	5.48955951e+00
+   30	+5.8303408889069651e+03	7.69698308e+00
+   31	+4.5756303770993372e+03	4.99496059e+00
+   32	+3.2882745360105041e+03	4.99206692e+00
+   33	+2.4859080663337409e+03	6.06412547e+00
+   34	+1.8742317703885883e+03	6.31914576e+00
+   35	+1.0180232276647602e+03	3.95876080e+00
+   36	+1.0039123049623423e+03	5.98095205e+00
+   37	+9.4842135180313221e+02	5.77801391e+00
+   38	+7.4230743968548154e+02	4.95252224e+00
+   39	+2.1649835563929082e+02	1.78629002e+00
+   40	+1.4828458357704315e+02	2.43544753e+00
+   41	+1.4999413814148401e+01	5.45853705e-01
+   42	+7.0923417793686667e+00	5.31009891e-01
+   43	+1.6115336582144704e+00	2.18995769e-01
+   44	+5.8249548104237536e-01	1.06336669e-01
+   45	+4.0400316173592293e-01	1.16898418e-01
+   46	+1.2021800357692899e-01	4.48042448e-02
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 10.233060 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 1.9683e-05 <==============
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5007253054951917e+07	6.28160291e+02
+    9	+4.2291503163846750e+06	3.46883039e+02
+   10	+1.2005269490397898e+06	2.33540908e+02
+   11	+9.8008373207690450e+05	1.82783629e+02
+   12	+3.3891366372226132e+05	9.69649379e+01
+   13	+6.7487372263780009e+04	4.35058839e+01
+   14	+6.6130112167334039e+04	5.05012434e+01
+   15	+6.0981523463974299e+04	4.58678273e+01
+   16	+4.4141561198207048e+04	3.24648142e+01
+   17	+1.8990318313598182e+04	1.98723090e+01
+   18	+1.7075671306492455e+04	2.09953397e+01
+   19	+1.4038741044190470e+04	7.34049936e+00
+   20	+1.3586143274221944e+04	1.56430127e+01
+   21	+1.2459297314119656e+04	7.15471395e+00
+   22	+1.1788380724063205e+04	1.10488940e+01
+   23	+1.0437718922841095e+04	5.04385938e+00
+   24	+1.0233518724670132e+04	1.16818026e+01
+   25	+9.5539956968579008e+03	8.55818398e+00
+   26	+7.9639892094683883e+03	4.90393896e+00
+   27	+7.8620247305571474e+03	1.21391260e+01
+   28	+7.5152315613270666e+03	9.17100577e+00
+   29	+6.5538126649869682e+03	6.34402805e+00
+   30	+4.6095496183677496e+03	4.99232459e+00
+   31	+3.6669099618420910e+03	6.44600966e+00
+   32	+2.5204108797264589e+03	5.78780310e+00
+   33	+1.6287391696972054e+03	4.53763145e+00
+   34	+1.0259109893453772e+03	4.91426536e+00
+   35	+9.9384376513146435e+02	6.28556958e+00
+   36	+8.7011881561818973e+02	5.84379649e+00
+   37	+4.5467874120234819e+02	3.98829743e+00
+   38	+1.0296837150727040e+02	1.41697367e+00
+   39	+5.4990890999707688e+01	1.34831756e+00
+   40	+1.5574862461721182e+01	5.24735117e-01
+   41	+7.3078898312231404e+00	3.82832742e-01
+   42	+3.2523774314496183e+00	2.07324086e-01
+   43	+1.5639121862794767e+00	1.96494964e-01
+   44	+1.2204309037147145e+00	2.14171696e-01
+   45	+3.3250677363850167e-01	7.11268266e-02
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 10.274250 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 30)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+
+
+=============> beta: 0 <==============[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 449)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',449,0)">line 449</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 36)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 
+ iter	                cost val	     grad. norm
+    0	+2.7262194728793368e+07	7.08575175e+02
+    1	+2.7261486158545174e+07	7.08566758e+02
+    2	+2.7258651956465431e+07	7.08533137e+02
+    3	+2.7247316416052584e+07	7.08399455e+02
+    4	+2.7201994880381629e+07	7.07877478e+02
+    5	+2.7021060515695985e+07	7.05991294e+02
+    6	+2.6304261728650596e+07	7.01394515e+02
+    7	+2.3582212840939686e+07	7.03218208e+02
+    8	+1.5007256885769807e+07	6.28160540e+02
+    9	+4.2291580361724030e+06	3.46883455e+02
+   10	+1.2005436916317767e+06	2.33542879e+02
+   11	+9.8007134040699876e+05	1.82782621e+02
+   12	+3.3884813825699314e+05	9.69539022e+01
+   13	+6.7495359734088343e+04	4.35164248e+01
+   14	+6.6102214931261522e+04	5.04867110e+01
+   15	+6.0825026051547109e+04	4.57390365e+01
+   16	+4.3653594730937635e+04	3.21067270e+01
+   17	+1.9197982368925139e+04	2.04986734e+01
+   18	+1.6791322412527028e+04	1.99675120e+01
+   19	+1.3907003761945631e+04	8.14901447e+00
+   20	+1.3216851743083404e+04	1.28300601e+01
+   21	+1.2056077575693511e+04	4.97265672e+00
+   22	+1.0983752892949689e+04	8.63696951e+00
+   23	+9.5543709269526262e+03	7.60780490e+00
+   24	+8.7960292336615348e+03	9.69048113e+00
+   25	+7.6462165691750788e+03	4.84080581e+00
+   26	+6.3139291786832255e+03	6.31415111e+00
+   27	+4.7649033266721162e+03	6.42381389e+00
+   28	+4.6853495983863868e+03	9.71801379e+00
+   29	+4.3763417033042970e+03	9.18438183e+00
+   30	+3.2989815476993190e+03	6.98659449e+00
+   31	+2.1862370590379460e+03	6.33777945e+00
+   32	+1.1457799357690710e+03	3.57032108e+00
+   33	+6.1335550644072100e+02	3.16888913e+00
+   34	+5.0685120001355403e+02	4.18705002e+00
+   35	+1.9255544739400671e+02	2.08441824e+00
+   36	+7.3965812588583020e+01	1.40313903e+00
+   37	+2.6752870941339445e+01	7.39091354e-01
+   38	+1.5213758512608724e+01	7.06240678e-01
+   39	+4.0068375653993398e+00	2.12031051e-01
+   40	+1.4984072316118899e+00	2.14280948e-01
+   41	+5.0751824753726438e-01	9.27849275e-02
+   42	+4.6228485148941634e-01	1.36784959e-01
+   43	+3.0229632512326188e-01	1.05273060e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 10.427784 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_beta_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 639)" style="font-weight:bold">fixedrank_tensor_completion>create_beta_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',639,0)">line 639</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>create_name', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 612)" style="font-weight:bold">fixedrank_tensor_completion>create_name</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',612,0)">line 612</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>show_plots', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 584)" style="font-weight:bold">fixedrank_tensor_completion>show_plots</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',584,0)">line 584</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 284)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',284,0)">line 284</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m', 36)" style="font-weight:bold">Beta_process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_process.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Beta_processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m', 14)" style="font-weight:bold">Beta_processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Beta_processscript.m',14,0)">line 14</a>)] 

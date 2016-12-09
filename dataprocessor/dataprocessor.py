@@ -3,7 +3,9 @@ import os, regprocessor
 def dataprocessor(input_path):
 	File_list = []
 	if input_path == "":
-		rootpath = '../Tensor_completion/data_r1/'
+		#rootpath = '../Tensor_completion/data_r3/'
+		rootpath = 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\data_r3'
+		#rootpath = '..\Tensor_completion\data_r3\'
 	else:
 		rootpath = input_path
 	for root, subfolders, files in os.walk(rootpath):

@@ -330,6 +330,7 @@ while true
                 error(['Unknown options.beta_type. ' ...
                        'Should be steep, S-D, F-R, P-R, H-S or H-Z.']);
             end
+            beta = options.beta_para * beta;
             desc_dir = lincomb(newx, -1, Pnewgrad, beta, desc_dir);
         end
         

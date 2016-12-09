@@ -253,6 +253,7 @@ function [Xsol, infos, problem_description] = fixedrank_tensor_completion(proble
     options.maxiter = params.maxiter;
     options.tolgradnorm =  params.tolgradnorm;
     options.verbosity =  params.verbosity;
+    options.beta_para = params.beta_para;
 
 
     % MSE stopping criteria options
@@ -604,8 +605,15 @@ function show_plots(problem_description, infos)
     end
 end
 
-
 function [foldername, filename0, filename1]= create_name(prob)
+    if ~isfield(prob.params,{'beta_para'})
+        [foldername, filename0, filename1] = create_norm_name(prob);
+    else
+        [foldername, filename0, filename1] = create_beta_name(prob);
+    end
+end
+
+function [foldername, filename0, filename1]= create_norm_name(prob)
 
     u = '_';
     if strcmp(func2str(prob.params.solver), 'conjugategradient')
@@ -613,6 +621,19 @@ function [foldername, filename0, filename1]= create_name(prob)
     else strcmp(func2str(prob.params.solver), 'steepestdescent')
         method = 'SD_L_';
     end
+    foldername = prob.foldername;
+    if ~exist(foldername,'dir')==0
+       mkdir(foldername);
+    end
+
+    filename0 = [foldername, u, 'KM_', method, '0', '.png'];
+    filename1 = [foldername, u, 'KM_', method, '1', '.png'];
+end
+function [foldername, filename0, filename1]= create_beta_name(prob)
+
+    u = '_';
+    method = ['CG_L_Beta_', num2str(prob.params.beta_para), u];
+    
     foldername = prob.foldername;
     if ~exist(foldername,'dir')==0
        mkdir(foldername);
