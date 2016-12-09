@@ -1,7 +1,7 @@
 function process(filemat)
     cd mat;
     load((filemat), 'problem_description');
-    cd ../data_r1/;
+    cd ../data_r3/;
 
     p = problem_description;
     u = '_';

@@ -1,0 +1,94 @@
+tensor_size   150   150   150
+
+tensor_rank    10    10    10
+
+OS    30
+
+conjugategradient	linesearchguess2
+
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In fixedrank_tensor_completion>check_problem_description (line 448)
+  In fixedrank_tensor_completion (line 121)
+  In process (line 26)
+  In processscript (line 6)] 
+ iter	                cost val	     grad. norm
+    0	+6.5963818248980552e+07	2.48344844e+03
+    1	+2.9778557586674474e+07	2.32039920e+03
+    2	+1.3711287406457266e+07	1.47604291e+03
+    3	+2.3882289057322461e+06	5.14022314e+02
+    4	+2.0916775592400372e+05	1.59647799e+02
+    5	+5.0336917597181222e+04	4.47803941e+01
+    6	+3.1513940201520156e+04	1.74185188e+01
+    7	+2.8072660744413031e+04	2.64049259e+01
+    8	+2.6288505148555516e+04	3.55395667e+01
+    9	+2.0853669220099990e+04	3.71437245e+01
+   10	+1.3106315241173066e+04	3.06465138e+01
+   11	+6.1260918243394772e+03	2.09711122e+01
+   12	+2.8879368348398357e+03	1.30086861e+01
+   13	+1.5484976695571222e+03	1.17256581e+01
+   14	+8.2713248314183534e+02	9.00075185e+00
+   15	+2.6470296504796852e+02	5.27547092e+00
+   16	+5.1043413697461766e+01	2.66639084e+00
+   17	+5.8919169635674500e+00	8.35467332e-01
+   18	+9.7107165012617369e-01	3.55298585e-01
+   19	+1.0013038759287340e-01	1.12539038e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 12.427383 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In fixedrank_tensor_completion>create_name (line 618)
+  In fixedrank_tensor_completion>show_plots (line 583)
+  In fixedrank_tensor_completion (line 283)
+  In process (line 26)
+  In processscript (line 6)] 
+steepestdescent	linesearchdefault
+
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In fixedrank_tensor_completion>check_problem_description (line 448)
+  In fixedrank_tensor_completion (line 121)
+  In process (line 33)
+  In processscript (line 6)] 
+ iter	                cost val	     grad. norm
+    0	+6.5963818248980552e+07	2.48344844e+03
+    1	+6.5961334830475390e+07	2.48339268e+03
+    2	+6.5951401635762818e+07	2.48317009e+03
+    3	+6.5911676550782338e+07	2.48228654e+03
+    4	+6.5752900906409301e+07	2.47886125e+03
+    5	+6.5119894873743780e+07	2.46690495e+03
+    6	+6.2627827456847526e+07	2.44610404e+03
+    7	+5.3705671279501885e+07	2.60140064e+03
+    8	+2.9871222906798590e+07	2.26522373e+03
+    9	+2.0054976017461941e+07	1.91628176e+03
+   10	+1.6315928005839735e+06	4.79187474e+02
+   11	+7.5160483008643030e+05	3.80837257e+02
+   12	+1.0183552293618795e+05	1.05667215e+02
+   13	+4.1400715903330551e+04	4.27495519e+01
+   14	+3.1481655437026755e+04	3.18418629e+01
+   15	+2.5826861135556363e+04	4.44248164e+01
+   16	+2.0609984481642001e+04	4.66312510e+01
+   17	+1.4005429626618065e+04	3.78497759e+01
+   18	+9.0183049102724144e+03	3.03871039e+01
+   19	+5.5780448796037635e+03	2.70565836e+01
+   20	+2.2791361136614587e+03	1.65690166e+01
+   21	+8.1368552458876343e+02	1.11612257e+01
+   22	+2.7058555905695374e+02	6.63491487e+00
+   23	+9.1818524530286325e+01	4.00831374e+00
+   24	+2.4268726681015043e+01	1.88818440e+00
+   25	+2.1963700774108624e+01	2.30590249e+00
+   26	+1.3749443644907895e+01	1.80328696e+00
+   27	+1.6493753116579690e+00	5.58713646e-01
+   28	+3.3273835902903637e-01	1.87021739e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 12.295313 [s] (excludes statsfun)
+
+ans =
+
+     1
+
+[警告: ディレクトリが既に存在します。] 
+[> In fixedrank_tensor_completion>create_name (line 618)
+  In fixedrank_tensor_completion>show_plots (line 583)
+  In fixedrank_tensor_completion (line 283)
+  In process (line 33)
+  In processscript (line 6)] 

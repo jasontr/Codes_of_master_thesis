@@ -1,0 +1,101 @@
+tensor_size   100   100   100
+
+tensor_rank    10    10    10
+
+OS    20
+
+conjugategradient	linesearchguess2
+
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In fixedrank_tensor_completion>check_problem_description (line 448)
+  In fixedrank_tensor_completion (line 121)
+  In process (line 26)
+  In processscript (line 6)] 
+ iter	                cost val	     grad. norm
+    0	+3.4786102557527646e+07	2.35118578e+03
+    1	+2.1418925665354684e+07	2.48057389e+03
+    2	+1.2928068585857835e+07	1.85941376e+03
+    3	+1.8058605689185204e+06	5.67458600e+02
+    4	+2.0555810815039679e+05	1.98160701e+02
+    5	+4.9102329800039195e+04	7.37212723e+01
+    6	+1.6824788898646824e+04	2.47192231e+01
+    7	+1.4668278601292537e+04	1.50351602e+01
+    8	+1.2898123196218021e+04	1.92305660e+01
+    9	+1.1343802942402124e+04	2.64939429e+01
+   10	+9.0015746336906832e+03	2.75742321e+01
+   11	+4.8756619559959399e+03	2.03242426e+01
+   12	+2.2786308556142894e+03	1.56225341e+01
+   13	+9.0456879198677188e+02	1.16172687e+01
+   14	+3.4478554359979739e+02	7.44198294e+00
+   15	+6.9277656144732632e+01	3.39841389e+00
+   16	+1.1286559920631639e+01	1.55326121e+00
+   17	+1.4245748692701510e+00	5.00638455e-01
+   18	+2.3446452473317753e-01	2.22550111e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 6.229712 [s] (excludes statsfun)
+[警告: ディレクトリが既に存在します。] 
+[> In fixedrank_tensor_completion>create_name (line 618)
+  In fixedrank_tensor_completion>show_plots (line 583)
+  In fixedrank_tensor_completion (line 283)
+  In process (line 26)
+  In processscript (line 6)] 
+steepestdescent	linesearchdefault
+
+[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
+] 
+[> In fixedrank_tensor_completion>check_problem_description (line 448)
+  In fixedrank_tensor_completion (line 121)
+  In process (line 33)
+  In processscript (line 6)] 
+ iter	                cost val	     grad. norm
+    0	+3.4786102557527646e+07	2.35118578e+03
+    1	+3.4783751446651354e+07	2.35104724e+03
+    2	+3.4774348203395948e+07	2.35049463e+03
+    3	+3.4736754552504852e+07	2.34830892e+03
+    4	+3.4586696442821085e+07	2.33996029e+03
+    5	+3.3991936246673733e+07	2.31271091e+03
+    6	+3.1710084491604101e+07	2.27738204e+03
+    7	+2.3905044116497040e+07	2.26844571e+03
+    8	+7.8245663264241554e+06	1.41574516e+03
+    9	+1.4616822531650995e+06	5.85683310e+02
+   10	+2.9835446188330831e+05	2.62064251e+02
+   11	+6.2499341476837108e+04	9.81324107e+01
+   12	+3.6329119044120162e+04	8.62924234e+01
+   13	+1.8815728090872308e+04	4.75171996e+01
+   14	+1.7013478021463972e+04	4.70786232e+01
+   15	+1.4616351682565202e+04	2.70208921e+01
+   16	+1.2722235204799879e+04	3.06721892e+01
+   17	+1.1631625037448919e+04	5.32993901e+01
+   18	+9.4521900391458839e+03	1.96488412e+01
+   19	+9.3926010737840879e+03	5.17951578e+01
+   20	+9.1613518053516436e+03	4.89894458e+01
+   21	+8.3475561541994430e+03	3.87295262e+01
+   22	+6.5106317170371967e+03	2.20044541e+01
+   23	+5.0218222526226928e+03	3.41824985e+01
+   24	+3.4147208601439625e+03	2.60832623e+01
+   25	+2.3974294005310221e+03	1.41673760e+01
+   26	+2.3746199246550509e+03	1.92202803e+01
+   27	+2.2849258545359589e+03	1.86271714e+01
+   28	+1.9516542201802786e+03	1.62788350e+01
+   29	+1.0656401729955771e+03	9.22874873e+00
+   30	+4.5487275260440595e+02	8.90194217e+00
+   31	+2.7334305667911605e+02	9.21978723e+00
+   32	+7.4813966486656994e+01	5.12484770e+00
+   33	+1.8077182723818559e+01	2.51394842e+00
+   34	+1.0448276085755015e+01	1.99384230e+00
+   35	+3.2908017116449768e+00	1.12196112e+00
+   36	+2.4211795226428096e-01	2.34438084e-01
+User defined stopfun criterion triggered. See options.stopfun.
+Total time is 6.512775 [s] (excludes statsfun)
+
+ans =
+
+     1
+
+[警告: ディレクトリが既に存在します。] 
+[> In fixedrank_tensor_completion>create_name (line 618)
+  In fixedrank_tensor_completion>show_plots (line 583)
+  In fixedrank_tensor_completion (line 283)
+  In process (line 33)
+  In processscript (line 6)] 
