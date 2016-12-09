@@ -39,7 +39,7 @@ work with the default "[]".
    22	+1.3720538520304243e-01	7.06196869e-02
 User defined stopfun criterion triggered. See options.stopfun.
 Total time is 7.619361 [s] (excludes statsfun)
-[Warning: Directory already exists.] 
+ 
 [> In fixedrank_tensor_completion>create_name (line 618)
   In fixedrank_tensor_completion>show_plots (line 583)
   In fixedrank_tensor_completion (line 283)
@@ -94,13 +94,11 @@ work with the default "[]".
 User defined stopfun criterion triggered. See options.stopfun.
 Total time is 8.215014 [s] (excludes statsfun)
 
-ans =
 
-     1
 
-[Warning: Directory already exists.] 
+ 
 [> In fixedrank_tensor_completion>create_name (line 618)
   In fixedrank_tensor_completion>show_plots (line 583)
   In fixedrank_tensor_completion (line 283)
   In process (line 33)
-  In processscript (line 6)] 
+  In processscript (line 6)]
