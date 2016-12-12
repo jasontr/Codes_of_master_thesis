@@ -279,7 +279,10 @@ function [Xsol, infos, problem_description] = fixedrank_tensor_completion(proble
     %save('T200_10_10.mat', 'problem_description');
     %diary('KM_CG_NewL.txt');
     [Xsol, unused, infos] = solver(problem, X_initial, options);
-    save('infos.mat', 'infos');
+    [foldername, unused, unused1, filenameinfo] = create_name(problem_description);
+    cd (foldername);
+    save(filenameinfo, 'infos');
+    cd ..;
     % Plots
     show_plots(problem_description, infos);
 
@@ -605,15 +608,15 @@ function show_plots(problem_description, infos)
     end
 end
 
-function [foldername, filename0, filename1]= create_name(prob)
+function [foldername, filename0, filename1, filenameinfo]= create_name(prob)
     if ~isfield(prob.params,{'beta_para'})
-        [foldername, filename0, filename1] = create_norm_name(prob);
+        [foldername, filename0, filename1, filenameinfo] = create_norm_name(prob);
     else
-        [foldername, filename0, filename1] = create_beta_name(prob);
+        [foldername, filename0, filename1, filenameinfo] = create_beta_name(prob);
     end
 end
 
-function [foldername, filename0, filename1]= create_norm_name(prob)
+function [foldername, filename0, filename1, filenameinfo]= create_norm_name(prob)
 
     u = '_';
     if strcmp(func2str(prob.params.solver), 'conjugategradient')
@@ -628,14 +631,16 @@ function [foldername, filename0, filename1]= create_norm_name(prob)
 
     filename0 = [foldername, u, 'KM_', method, '0', '.png'];
     filename1 = [foldername, u, 'KM_', method, '1', '.png'];
+    filenameinfo = [foldername, u, 'KM_', method, 'info', '.mat'];
 end
-function [foldername, filename0, filename1]= create_beta_name(prob)
+function [foldername, filename0, filename1, filenameinfo]= create_beta_name(prob)
 
     u = '_';
     if strcmp(func2str(prob.params.linesearch), 'linesearchguess2')
         method = 'CG_NewL_';
     else strcmp(func2str(prob.params.linesearch), 'linesearchdefault')
         method = 'CG_L_';
+    end
     method = [method, 'Beta_', num2str(prob.params.beta_para), u];
 
     foldername = prob.foldername;
@@ -645,4 +650,5 @@ function [foldername, filename0, filename1]= create_beta_name(prob)
 
     filename0 = [foldername, u, 'KM_', method, '0', '.png'];
     filename1 = [foldername, u, 'KM_', method, '1', '.png'];
+    filenameinfo = [foldername, u, 'KM_', method, 'info', '.mat'];
 end

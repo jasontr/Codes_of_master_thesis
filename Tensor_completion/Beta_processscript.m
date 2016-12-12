@@ -1,6 +1,6 @@
-%Run_me_first;
-%Install_mex;
-%u = '_';
+Run_me_first;
+Install_mex;
+u = '_';
 %si = 100;
 %ri = 5;
 %OS = 10;

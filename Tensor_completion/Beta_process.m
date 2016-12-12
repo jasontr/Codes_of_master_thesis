@@ -1,7 +1,7 @@
 function Beta_process(filemat)
     cd mat;
     load((filemat), 'problem_description');
-    cd ../data_beta/;
+    cd ../data_beta_v2/;
 
     p = problem_description;
     u = '_';
@@ -24,7 +24,7 @@ function Beta_process(filemat)
     bp = 1;
     for i = 0:10
         p.params.beta_para = i;
-        fprintf('=============> beta: %s <==============\n', num2str(p.params.beta_para));
+        fprintf('=============> beta: %s <==============\n', num2str(p.params.beta_para/5));
         p.params.linesearch = @linesearchguess2;
         fprintf('%s\t%s\n', func2str(p.params.solver), func2str(p.params.linesearch));
         fixedrank_tensor_completion(p);
@@ -33,9 +33,7 @@ function Beta_process(filemat)
         fixedrank_tensor_completion(p);
         fprintf('\n\n');
     end
-    p.params.beta_para = 0;
-    fprintf('=============> beta: %s <==============', num2str(p.params.beta_para));
-    fixedrank_tensor_completion(p);
+
 
     diary off;
     cd ..;
