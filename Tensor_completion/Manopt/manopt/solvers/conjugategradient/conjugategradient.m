@@ -99,15 +99,15 @@ function [x, cost, info, options] = conjugategradient(problem, x, options)
 % This file is part of Manopt: www.manopt.org.
 % Original author: Bamdev Mishra, Dec. 30, 2012.
 % Contributors: Nicolas Boumal
-% Change log: 
+% Change log:
 %
 %   March 14, 2013, NB:
 %       Added preconditioner support : see Section 8 in
 %       https://www.math.lsu.edu/~hozhang/papers/cgsurvey.pdf
-%    
+%
 %   Sept. 13, 2013, NB:
 %       Now logging beta parameter too.
-%    
+%
 %	Nov. 7, 2013, NB:
 %       The search direction is not normalized before it is passed to the
 %       linesearch anymore. This way, it is up to the designers of the
@@ -146,7 +146,7 @@ localdefaults.storedepth = 2;
 localdefaults.beta_type = 'H-S';
 localdefaults.orth_value = Inf; % by BM as suggested in Nocedal and Wright
 
-    
+
 % Depending on whether the problem structure specifies a hint for
 % line-search algorithms, choose a default line-search that works on
 % its own (typical) or that uses the hint.
@@ -207,41 +207,41 @@ desc_dir = lincomb(x, -1, Pgrad);
 
 % Start iterating until stopping criterion triggers
 while true
-    
+
     % Display iteration information
     if options.verbosity >= 2
         fprintf('%5d\t%+.16e\t%.8e\n', iter, cost, gradnorm);
     end
-    
+
     % Start timing this iteration
     timetic = tic();
-    
+
     % Run standard stopping criterion checks
     [stop reason] = stoppingcriterion(problem, x, options, info, iter+1);
-    
+
     % Run specific stopping criterion check
     if ~stop && abs(stats.stepsize) < options.minstepsize
         stop = true;
         reason = 'Last stepsize smaller than minimum allowed. See options.minstepsize.';
     end
-    
+
     if stop
         if options.verbosity >= 1
             fprintf([reason '\n']);
         end
         break;
     end
-    
-    
+
+
     % The line search algorithms require the directional derivative of the
     % cost at the current point x along the search direction.
     df0 = inner(x, grad, desc_dir);
-        
+
     % If we didn't get a descent direction: restart, i.e., switch to the
     % negative gradient. Equivalent to resetting the CG direction to a
     % steepest descent step, which discards the past information.
     if df0 >= 0
-        
+
         % Or we switch to the negative gradient direction.
         if options.verbosity >= 3
             fprintf(['Conjugate gradient info: got an ascent direction '...
@@ -251,60 +251,60 @@ while true
         % Reset to negative gradient: this discards the CG memory.
         desc_dir = lincomb(x, -1, Pgrad);
         df0 = -gradPgrad;
-        
+
     end
-    
-    
+
+
     % Execute line search
     [stepsize newx storedb lsmem lsstats] = options.linesearch(...
                  problem, x, desc_dir, cost, df0, options, storedb, lsmem);
 
-    
+
     % Compute the new cost-related quantities for x
     [newcost newgrad storedb] = getCostGrad(problem, newx, storedb);
     newgradnorm = problem.M.norm(newx, newgrad);
     [Pnewgrad storedb] = getPrecon(problem, x, newgrad, storedb);
     newgradPnewgrad = inner(newx, newgrad, Pnewgrad);
-    
-    
+
+
     % Apply the CG scheme to compute the next search direction.
     %
     % This paper https://www.math.lsu.edu/~hozhang/papers/cgsurvey.pdf
 	% by Hager and Zhang lists many known beta rules. The rules defined
     % here can be found in that paper (or are provided with additional
     % references), adapted to the Riemannian setting.
-	% 
+	%
     if strcmpi(options.beta_type, 'steep') || ...
        strcmpi(options.beta_type, 'S-D')              % Gradient Descent
-        
+
         beta = 0;
         desc_dir = lincomb(x, -1, Pnewgrad);
-        
+
     else
-        
+
         oldgrad = problem.M.transp(x, newx, grad);
         orth_grads = inner(newx, oldgrad, Pnewgrad)/newgradPnewgrad;
-        
+
         % Powell's restart strategy (see page 12 of Hager and Zhang's
         % survey on conjugate gradient methods, for example)
         if abs(orth_grads) >= options.orth_value,
             beta = 0;
             desc_dir = lincomb(x, -1, Pnewgrad);
-            
+
         else % Compute the CG modification
-            
+
             desc_dir = problem.M.transp(x, newx, desc_dir);
-            
+
             if strcmp(options.beta_type, 'F-R')  % Fletcher-Reeves
                 beta = newgradPnewgrad / gradPgrad;
-                
+
             elseif strcmp(options.beta_type, 'P-R')  % Polak-Ribiere+
                 % vector grad(new) - transported grad(current)
                 diff = lincomb(newx, 1, newgrad, -1, oldgrad);
                 ip_diff = inner(newx, Pnewgrad, diff);
                 beta = ip_diff/gradPgrad;
                 beta = max(0, beta);
-                
+
             elseif strcmp(options.beta_type, 'H-S')  % Hestenes-Stiefel+
                 diff = lincomb(newx, 1, newgrad, -1, oldgrad);
                 ip_diff = inner(newx, Pnewgrad, diff);
@@ -320,7 +320,7 @@ while true
                 numo = numo - 2*inner(newx, diff, Pdiff)*...
                                        inner(newx, desc_dir, newgrad)/deno;
                 beta = numo/deno;
-                
+
                 % Robustness (see Hager-Zhang paper mentioned above)
                 desc_dir_norm = problem.M.norm(newx, desc_dir);
                 eta_HZ = -1/(desc_dir_norm * min(0.01, gradnorm));
@@ -330,15 +330,15 @@ while true
                 error(['Unknown options.beta_type. ' ...
                        'Should be steep, S-D, F-R, P-R, H-S or H-Z.']);
             end
-            beta = options.beta_para * beta;
+            beta = options.beta_para / 5 * beta;
             desc_dir = lincomb(newx, -1, Pnewgrad, beta, desc_dir);
         end
-        
+
     end
-    
+
     % Make sure we don't use too much memory for the store database.
     storedb = purgeStoredb(storedb, options.storedepth);
-    
+
     % Update iterate info
     x = newx;
     cost = newcost;
@@ -346,14 +346,14 @@ while true
     Pgrad = Pnewgrad;
     gradnorm = newgradnorm;
     gradPgrad = newgradPnewgrad;
-    
+
     % iter is the number of iterations we have accomplished.
     iter = iter + 1;
-    
+
     % Log statistics for freshly executed iteration
     stats = savestats();
     info(iter+1) = stats; %#ok<AGROW>
-    
+
 end
 
 
@@ -384,5 +384,3 @@ end
     end
 
 end
-
-

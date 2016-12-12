@@ -632,8 +632,12 @@ end
 function [foldername, filename0, filename1]= create_beta_name(prob)
 
     u = '_';
-    method = ['CG_L_Beta_', num2str(prob.params.beta_para), u];
-    
+    if strcmp(func2str(prob.params.linesearch), 'linesearchguess2')
+        method = 'CG_NewL_';
+    else strcmp(func2str(prob.params.linesearch), 'linesearchdefault')
+        method = 'CG_L_';
+    method = [method, 'Beta_', num2str(prob.params.beta_para), u];
+
     foldername = prob.foldername;
     if ~exist(foldername,'dir')==0
        mkdir(foldername);

@@ -22,19 +22,21 @@ function Beta_process(filemat)
     fprintf('%s', 'OS');
     disp(OS);
     bp = 1;
-    p.params.linesearch = @linesearchdefault;
-    fprintf('%s\t%s\n\n', func2str(p.params.solver), func2str(p.params.linesearch));
-    for i = 1:10
-        p.params.beta_para = bp;
+    for i = 0:10
+        p.params.beta_para = i;
         fprintf('=============> beta: %s <==============\n', num2str(p.params.beta_para));
+        p.params.linesearch = @linesearchguess2;
+        fprintf('%s\t%s\n', func2str(p.params.solver), func2str(p.params.linesearch));
         fixedrank_tensor_completion(p);
-        bp = bp * 0.3;
+        p.params.linesearch = @linesearchdefault;
+        fprintf('\n\n%s\t%s\n', func2str(p.params.solver), func2str(p.params.linesearch));
+        fixedrank_tensor_completion(p);
         fprintf('\n\n');
     end
     p.params.beta_para = 0;
     fprintf('=============> beta: %s <==============', num2str(p.params.beta_para));
     fixedrank_tensor_completion(p);
-    
+
     diary off;
     cd ..;
 end
