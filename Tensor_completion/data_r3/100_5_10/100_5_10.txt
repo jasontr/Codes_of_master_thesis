@@ -8,84 +8,32 @@ conjugategradient	linesearchguess2
 
 [警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
 ] 
-[> In fixedrank_tensor_completion>check_problem_description (line 448)
-  In fixedrank_tensor_completion (line 121)
-  In process (line 26)
-  In processscript (line 6)] 
- iter	                cost val	     grad. norm
-    0	+2.1785487345057263e+05	8.39623705e+01
-    1	+4.7615021247613491e+04	4.56921205e+01
-    2	+1.1201397783103035e+04	2.08395182e+01
-    3	+2.0243968148955107e+03	8.36386339e+00
-    4	+6.3996275182432430e+02	3.28171186e+00
-    5	+3.8957924543777028e+02	1.41254497e+00
-    6	+3.3782395135634658e+02	1.09558016e+00
-    7	+2.9166728728117505e+02	1.27188051e+00
-    8	+2.4397983897061610e+02	1.46935675e+00
-    9	+1.7731770234691950e+02	1.45976124e+00
-   10	+1.1153499085254577e+02	1.17588529e+00
-   11	+6.7034737666428470e+01	8.20469152e-01
-   12	+4.3978679181284122e+01	5.38890291e-01
-   13	+2.9462853299159175e+01	7.21923145e-01
-   14	+1.9149289661052791e+01	7.32730513e-01
-   15	+5.9785949407936636e+00	4.39142587e-01
-   16	+1.6128315760113450e+00	2.27758257e-01
-   17	+3.4571758528831620e-01	1.14937094e-01
-   18	+8.2845212837754117e-02	5.07025831e-02
-   19	+1.5208062951347506e-02	2.30882264e-02
-User defined stopfun criterion triggered. See options.stopfun.
-Total time is 1.408443 [s] (excludes statsfun)
-[警告: ディレクトリが既に存在します。] 
-[> In fixedrank_tensor_completion>create_name (line 618)
-  In fixedrank_tensor_completion>show_plots (line 583)
-  In fixedrank_tensor_completion (line 283)
-  In process (line 26)
-  In processscript (line 6)] 
-steepestdescent	linesearchdefault
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion>check_problem_description', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 452)" style="font-weight:bold">fixedrank_tensor_completion>check_problem_description</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',452,0)">line 452</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 121)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',121,0)">line 121</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\process.m', 26)" style="font-weight:bold">process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\process.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\processscript.m', 6)" style="font-weight:bold">processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\processscript.m',6,0)">line 6</a>)] 
+{存在しないフィールド 'beta_para' を参照しています。
 
-[警告: The field "data_validate" is either empty or not properly defined. We work with the default "[]".
-] 
-[> In fixedrank_tensor_completion>check_problem_description (line 448)
-  In fixedrank_tensor_completion (line 121)
-  In process (line 33)
-  In processscript (line 6)] 
- iter	                cost val	     grad. norm
-    0	+2.1785487345057263e+05	8.39623705e+01
-    1	+2.1777092203720391e+05	8.39442134e+01
-    2	+2.1743529211237491e+05	8.38716682e+01
-    3	+2.1609561037793168e+05	8.35828092e+01
-    4	+2.1078389348602277e+05	8.24486236e+01
-    5	+1.9035667819673350e+05	7.83279347e+01
-    6	+1.2214822988611020e+05	6.65877255e+01
-    7	+2.0705321846233972e+04	2.91249454e+01
-    8	+4.5679547127260748e+03	1.58389870e+01
-    9	+4.0830051954258524e+03	1.59525901e+01
-   10	+2.4616625887277428e+03	1.13842572e+01
-   11	+1.7490156315131396e+03	9.95253486e+00
-   12	+5.1345107032304531e+02	2.61436636e+00
-   13	+4.2322510272412234e+02	2.79491684e+00
-   14	+2.9029148761219739e+02	2.36720192e+00
-   15	+2.1885610960224858e+02	2.44455944e+00
-   16	+1.8146170780127372e+02	2.57593592e+00
-   17	+9.5418248546855594e+01	1.18912439e+00
-   18	+5.3478216115540910e+01	1.13159226e+00
-   19	+4.0472752305466031e+01	1.49756619e+00
-   20	+1.1143919815492136e+01	5.27294575e-01
-   21	+8.6067808318948948e+00	6.87576308e-01
-   22	+1.9947509000624066e+00	2.69743812e-01
-   23	+1.5395759609838848e+00	2.87790415e-01
-   24	+3.1304003221310595e-01	1.14222612e-01
-   25	+2.9887452158998799e-02	3.18369371e-02
-User defined stopfun criterion triggered. See options.stopfun.
-Total time is 0.392000 [s] (excludes statsfun)
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fixedrank_tensor_completion', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m', 256)" style="font-weight:bold">fixedrank_tensor_completion</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\Proposed_algo_files\fixedrank_tensor_completion.m',256,0)">line 256</a>)
+    options.beta_para = params.beta_para;
 
-ans =
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('process', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\process.m', 26)" style="font-weight:bold">process</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\process.m',26,0)">line 26</a>)
+    fixedrank_tensor_completion(p);
 
-     1
-
-[警告: ディレクトリが既に存在します。] 
-[> In fixedrank_tensor_completion>create_name (line 618)
-  In fixedrank_tensor_completion>show_plots (line 583)
-  In fixedrank_tensor_completion (line 283)
-  In process (line 33)
-  In processscript (line 6)] 
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('processscript', 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\processscript.m', 6)" style="font-weight:bold">processscript</a> (<a href="matlab: opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\processscript.m',6,0)">line 6</a>)
+            process(matn);
+} 
+opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\processscript.m',6,0)
+opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\processscript.m',6,0)
+opentoline('C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\Tensor_completion\process.m',26,0)
+Beta_processscript
+'Microsoft Visual C++ 2015 Professional (C)' でビルドしています。
+MEX は正常に完了しました。
+'Microsoft Visual C++ 2015 Professional (C)' でビルドしています。
+MEX は正常に完了しました。
+'Microsoft Visual C++ 2015 Professional (C)' でビルドしています。
+MEX は正常に完了しました。
+'Microsoft Visual C++ 2015 Professional (C)' でビルドしています。
+MEX は正常に完了しました。
+'Microsoft Visual C++ 2015 Professional (C)' でビルドしています。
+MEX は正常に完了しました。

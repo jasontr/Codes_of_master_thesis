@@ -1,4 +1,4 @@
-function a = test()
+function a = iter()
 addpath(pwd);
 rpath = 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\plot\plot_data\';
 cd plot_data
@@ -30,16 +30,16 @@ for OS = 10:10:30
         %annotation('textbox',dim,'String',str,'FitBoxToText','on');
         %text(ha(beta+1),.5,.9,str);
         name = {'100';'150';'200'};
-        y = [pdata.test_error]; 
+        y = [pdata.iter]; 
         bar(y)
-        ylim([0 1])
+        ylim([0 110])
         cd ..;
     end
     for lop = 0:9
         axes(ha(lop+1));
         str = ['\beta = ', num2str(lop*0.2)];
         title(ha(lop+1), str, 'FontSize',18);
-        ylabel(ha(1),'Test error','FontSize',30);
+        ylabel(ha(1),'Iterations','FontSize',30);
     end
     
     legend1 = legend(ha(10),'L','newL');
