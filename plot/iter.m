@@ -37,7 +37,7 @@ for OS = 10:10:30
     end
     for lop = 0:9
         axes(ha(lop+1));
-        str = ['\beta = ', num2str(lop*0.2)];
+        str = ['c = ', num2str(lop*0.2)];
         title(ha(lop+1), str, 'FontSize',18);
         ylabel(ha(1),'Iterations','FontSize',30);
     end
