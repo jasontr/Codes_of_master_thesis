@@ -204,7 +204,8 @@ end
 % Compute a first descent direction (not normalized)
 desc_dir = lincomb(x, -1, Pgrad);
 
-
+%beta_flag = 0;
+plinesearch = problem.linesearch;
 % Start iterating until stopping criterion triggers
 while true
 
@@ -253,9 +254,21 @@ while true
         df0 = -gradPgrad;
 
     end
+<<<<<<< HEAD
 
 
     % Execute line search
+=======
+    
+    beta = 1;
+    % Execute line search    
+    if beta == 0
+        
+        problem.linesearch = @linesearch;
+    else
+        problem.linesearch = plinesearch;
+    end
+>>>>>>> 98e074085bb5f8901535f1729ed7c1980f0d141d
     [stepsize newx storedb lsmem lsstats] = options.linesearch(...
                  problem, x, desc_dir, cost, df0, options, storedb, lsmem);
 
