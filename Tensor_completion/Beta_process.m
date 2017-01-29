@@ -22,8 +22,9 @@ function Beta_process(filemat)
     fprintf('%s', 'OS');
     disp(OS);
     bp = 1;
-    for i = 0:10
+    for i = 0:0
         p.params.beta_para = i;
+        p.params.solver = @steepestdescent;
         fprintf('=============> beta: %s <==============\n', num2str(p.params.beta_para/5));
         p.params.linesearch = @linesearchguess2;
         fprintf('%s\t%s\n', func2str(p.params.solver), func2str(p.params.linesearch));
