@@ -32,7 +32,7 @@ for OS = 10:10:30
         name = {'100';'150';'200'};
         y = [pdata.time]; 
         bar(y)
-        ylim([0 35])
+        ylim([0 25])
         cd ..;
     end
     for lop = 0:9
