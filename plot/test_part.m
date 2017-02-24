@@ -1,4 +1,4 @@
-function a = time()
+function a = test_part()
 addpath(pwd);
 rpath = 'C:\Users\jason_000\Documents\coding\Codes_of_master_thesis\plot\plot_data\';
 cd plot_data
@@ -8,8 +8,8 @@ for OS = 10:10:30
     %ps = ginput(1);
     
     %text(ps(1),ps(2), ['Test error in OS=', num2str(OS)],'FontSize',30);
-    ha = tight_subplot(f1,1,10,[.0 .0],[.07 .1],[.06 .04]);
-    for beta = 0:9
+    ha = tight_subplot(f1,1,2,[.0 .0],[.07 .1],[.06 .04]);
+    for beta = 0:5:5
 
         cd(num2str(beta))
         path = pwd;
@@ -23,29 +23,29 @@ for OS = 10:10:30
         end
          
         
-        axes(ha(beta+1));
+        axes(ha(beta/5+1));
         %set(ha(beta+1),'Title', stitle);
         
         dim = [.2 .5 .3 .3];
         %annotation('textbox',dim,'String',str,'FitBoxToText','on');
         %text(ha(beta+1),.5,.9,str);
         name = {'100';'150';'200'};
-        y = [pdata.time]; 
+        y = [pdata.test_error]; 
         bar(y)
-        ylim([0 25])
+        ylim([0 1])
         cd ..;
     end
-    for lop = 0:9
+    for lop = 0:1
         axes(ha(lop+1));
-        str = ['c=', num2str(lop*0.2)];
+        str = ['c = ', num2str(lop*0.2)];
         title(ha(lop+1), str, 'FontSize',18);
-        ylabel(ha(1),'Time(second)','FontSize',30);
+        ylabel(ha(1),'Test error','FontSize',30);
     end
     
-    legend1 = legend(ha(10),'L','newL');
+    legend1 = legend(ha(2),'L','newL');
     set(legend1,'FontSize',14);
-    set(ha(1:10),'XTickLabel',name,'FontSize',18); 
-    set(ha(2:10),'YTickLabel','');
+    set(ha(1:2),'XTickLabel',name,'FontSize',18); 
+    set(ha(2),'YTickLabel','');
     cd ..;
     pause;
 end

@@ -38,8 +38,8 @@ for OS = 10:10:30
     for lop = 0:9
         axes(ha(lop+1));
         str = ['c = ', num2str(lop*0.2)];
-        title(ha(lop+1), str, 'FontSize',18);
-        ylabel(ha(1),'Test error','FontSize',30);
+        title(ha(lop+1), str, 'FontSize',30);
+        ylabel(ha(1),'Test error','FontSize',40);
     end
     
     legend1 = legend(ha(10),'L','newL');
